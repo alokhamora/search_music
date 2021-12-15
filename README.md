@@ -6,8 +6,8 @@
 
 Запуск: docker-compose up
 
-Зарегистрировать пользователя: curl -d '{"name":"name_user", "mail": "mail", "password": "password"}' 0.0.0.0:8000/music/register/
+Зарегистрировать пользователя: curl -d '{"name":"name_user", "mail": "mail", "password": "password"}' 0.0.0.0:8000/music/register
 
-Отправить поисковый запрос: curl -u login:password 0.0.0.0:8000/music/search/?track=track_name
+Отправить поисковый запрос: curl -u login:password '0.0.0.0:8000/music/search/?track=track_name'
 
 
